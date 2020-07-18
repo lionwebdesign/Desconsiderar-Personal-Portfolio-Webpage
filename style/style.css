@@ -1,1 +1,282 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.titulo {
+  color: white;
+}
+
+.texto {
+  color: #d9d9d9;
+}
+
+h1 {
+  font-size: 2.85rem !important;
+}
+
+h2 {
+  font-size: 2rem !important;
+}
+
+h3 {
+  font-size: 1.65rem !important;
+}
+
+h4 {
+  font-size: 1.45rem !important;
+}
+
+p {
+  font-size: 1.15rem !important;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
+  h2 {
+    font-size: 1.8rem !important;
+  }
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  h4 {
+    font-size: 1.25rem !important;
+  }
+  p {
+    font-size: 1rem !important;
+  }
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../media/blur-cellphone-close-up-device-196646.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../media/blur-cellphone-close-up-device-196646.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  body {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url(../media/turned-on-gray-laptop-computer-on-table-699459.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../media/turned-on-gray-laptop-computer-on-table-699459.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  }
+}
+
+body .navbar-fixed {
+  position: relative;
+  height: 63px;
+  z-index: 998;
+}
+
+body .navbar-fixed nav {
+  background-color: black;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body .navbar-fixed nav a.brand-logo {
+  max-width: 308px;
+  height: auto;
+}
+
+body .navbar-fixed nav a.brand-logo img.img-logo {
+  max-height: 60px;
+}
+
+body .navbar-fixed nav ul li a {
+  color: #8dd8f8 !important;
+}
+
+body .navbar-fixed nav ul li a:hover {
+  color: #8dd8f8 !important;
+}
+
+body .navbar-fixed nav .sidenav-trigger {
+  color: #8dd8f8 !important;
+  float: right;
+}
+
+body .navbar-fixed nav .sidenav {
+  background-color: #262626 !important;
+}
+
+body main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+body main .welcome-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+}
+
+@media screen and (max-width: 900px) {
+  body main .welcome-section {
+    height: 300px;
+  }
+}
+
+body main .projects {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  height: 70vh;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  body main .projects {
+    height: auto;
+  }
+}
+
+body main .projects .contenedor-projectos .texto-proyectos {
+  margin-bottom: 25px;
+}
+
+body main .projects .contenedor-projectos .proyectos-grid {
+  width: 95%;
+  margin: auto;
+}
+
+body main .projects .contenedor-projectos .proyectos-grid .card-proyecto .card .card-image {
+  max-height: 200px;
+}
+
+body main .projects .contenedor-projectos .proyectos-grid .card-proyecto .card .card-content p a {
+  color: #ff671f;
+}
+
+body main .projects .contenedor-projectos .proyectos-grid .card-proyecto .card .card-content p a:hover {
+  color: #d24300;
+}
+
+body main .ready-to-help {
+  background-color: black;
+  height: 30vh;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+  body main .ready-to-help {
+    height: 200px;
+  }
+}
+
+body main .diferenciales {
+  background-color: black;
+  height: 70vh;
+}
+
+@media screen and (max-width: 900px) {
+  body main .diferenciales {
+    height: auto;
+  }
+}
+
+body main .diferenciales .grid-diferenciales {
+  width: 93%;
+  margin: auto;
+}
+
+body main .diferenciales .grid-diferenciales .diferencial .img-diferencial {
+  text-align: center;
+  height: 225px;
+}
+
+body main .diferenciales .grid-diferenciales .diferencial .img-diferencial img {
+  max-width: 200px;
+  width: 100%;
+}
+
+body main .diferenciales .grid-diferenciales .diferencial .diferencial-description {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+body .call-to-action {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+}
+
+@media screen and (max-width: 900px) {
+  body .call-to-action {
+    height: 300px;
+  }
+}
+
+body .page-footer {
+  background-color: #262626 !important;
+  color: #a5e0f9 !important;
+}
+
+body .page-footer .container .row .center ul li p {
+  color: #a5e0f9 !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+body .page-footer .container .row .center ul li p a {
+  color: #5dc8f5 !important;
+}
+
+body .page-footer .container .row .center .links-contacto {
+  height: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .page-footer .container .row .center .links-contacto ul {
+  margin: 0px;
+}
+
+body .page-footer .container .row .center .links-contacto ul li {
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+body .page-footer .footer-copyright {
+  background-color: black !important;
+  color: #a5e0f9 !important;
+}
+
+body .page-footer .footer-copyright div a {
+  color: #5dc8f5 !important;
+}
+/*# sourceMappingURL=style.css.map */
